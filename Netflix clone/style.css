@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    background-color: black;
+}
+@media only screen and (max-width: 640px){
+    .main{
+        background-image: url('Assets/Netflix\ bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(100vw,640px);
+        height: 95vh;
+        width: max(100%,640px);
+        position: relative;
+        
+    }
+    }
+
+@media only screen and (min-width: 640px){
+    .main{
+        background-image: url('Assets/Netflix\ bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(100vw,1200px);
+        height: 97vh;
+        width: 100%;
+        position: relative;
+        
+    }
+    }
+
+.main .box{
+    height: 97vh;
+    width: 100%;
+   
+    position: absolute;
+    top: 0%;
+ background-color: black;
+ opacity: 0.72;
+   
+}
+
+nav{
+  
+    display: flex;
+    max-width: 70vw;
+    height: 60px;
+    margin: auto;
+    padding-top: 15px;
+   justify-content: space-between;
+   align-items: center;
+}
+nav img{
+   width: 148px;
+   color: red;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 89.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 13px;
+    padding: 0px 20px;
+}
+
+.hero > :nth-child(1){
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+ position: relative;
+ z-index: 10;
+  font-style: normal;
+text-align: center;
+}
+.hero > :nth-child(2){
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+ position: relative;
+ z-index: 10;
+  font-style: normal;
+  text-align: center;
+}
+.hero > :nth-child(3){
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+ position: relative;
+ z-index: 10;
+  font-style: normal;
+  line-height: 30px;
+  text-align: center;
+}
+.separation{
+    height: 11px;
+  background-color: rgb(37, 36, 36);
+}
+.btn{
+    padding: 4px 10px;
+    font-weight: 700;
+    background-color: white;
+}
+.btn-eng{
+    background-color: rgba(20, 19, 19, 0.027);
+    opacity: 0.8;
+    color: white;
+    height: 33px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+.btn-red{
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    font-size: 14px;
+    height: 33px;
+  
+}
+.btn-red:hover{
+cursor: pointer;
+background-color: brown;
+}
+.btn-red-gs{
+    color: white;
+    background-color: red;
+    padding: 15px 10px;
+    width: 220px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.btn-red-gs:hover{
+    cursor: pointer;
+
+    }
+
+.text{
+    width: 310px;
+    padding: 15px 16px;
+    font-size: 25 pxs;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(20, 19, 19, 0.007);
+    font-weight: 700;
+    color: white;
+    
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+/* first box style */
+
+/* Desktop */
+@media only screen and (min-width:961px){
+    .first{
+        height: 75vh;
+        max-width: 75vw;
+        margin: auto;
+       display: flex;
+       justify-content: space-between;
+    gap: 20px;
+       color: white;
+    }
+
+    .first-text1
+    {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+       
+    }
+    .first-text2
+    {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+        
+    }
+    .first-text3
+    {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+        
+    }
+
+
+    .secimg-video{
+        
+        right:15px;
+        
+    }
+    #secimg-img33{
+        position: absolute;
+        top: 70px;
+        right: -91px;
+    }
+    #secimg-video3{
+        width: 340px;
+        height: 211px;
+        position: absolute;
+        top: 79px;
+        right: 11px;
+        z-index: -12;
+    }
+    #third-box{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+    }
+    }
+/* tablate */
+@media only screen and (max-width:960px){
+    .first{
+        height: 99vh;
+        max-width: 75vw;
+        margin: auto;
+       display: flex;
+       flex-flow: column;
+       justify-content: space-around;
+    gap: 20px;
+       color: white;
+    }
+    
+    .first-text1
+    {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+      font-weight: 700;
+      font-size: 29px;
+       
+    }
+    .first-text2
+    {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+        
+    }
+    .first-text3
+    {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+        
+    }
+
+    .first-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .secimg-video{
+        
+        right:120px;
+        
+    }
+    .secimg img{
+        margin-left: 90px;
+    }
+    #second-first{
+        display: flex;
+        flex-flow: column-reverse;
+        
+    }
+    #secimg-img33{
+        position: absolute;
+        top: -270px;
+        right: 119px;
+    }
+    #secimg-video3{
+        width: 340px;
+        height: 211px;
+        position: absolute;
+        top: -262px;
+        right: 209px;
+        z-index: -12;
+    }
+    #third-box{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+
+
+@media only screen (min-width: 768px){
+
+
+}
+
+
+.first-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secimg-video{
+    width: 500px;
+    
+    height: 211px;
+    position: absolute;
+    top: 86px;
+    
+    z-index: -12;
+}
+
+.secimg{
+    position: relative;
+}
+
+
+
+
+#fourth-img{
+    margin-top: 70px;
+}
+.faq-section{
+    height:120vh;
+    display: flex;
+    justify-content: center;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+    max-width: 80vw;
+    margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-text h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:48px;
+    font-weight:900 ;
+}
+.faq-question{
+    display: flex;
+    flex-direction: column;
+}
+.faq-question span{
+    border: 5px solid black;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-between;
+    height: 80px;
+}
+.faq-question span div{
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.faq-question span :nth-child(2){
+    font-size: 60px;
+    padding-top: 0%;
+}
+.fourth-box-ready{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+.fourth-box-part2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer{
+    height: 55vh;
+    
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   justify-content: center;
+}
+#row0{
+
+}
+#row0 p{
+    color: rgb(197, 186, 186);
+}
+#row3{
+}
+#row3 p{
+    color: rgb(197, 186, 186);
+}
+#row1 a{
+    color: rgb(197, 186, 186);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-weight: 400;
+}
+#row1{
+    display:grid;
+    grid-template-columns:repeat(4,18vw);
+    height: 22vh;
+}
